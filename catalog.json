@@ -1,0 +1,51 @@
+{
+  "price_note": "Illustrative sample prices only; replace with your local shop prices. Quantities are raw/dry, except cooked chickpeas. Prices assume loose quantities; full packets, fuel and delivery are excluded.",
+  "ingredients": {
+    "rice": {"name": "Rice (dry)", "unit": "g", "price_unit": "kg", "price": 300, "divisor": 1000},
+    "lentils": {"name": "Masoor lentils (dry)", "unit": "g", "price_unit": "kg", "price": 400, "divisor": 1000},
+    "chickpeas": {"name": "Chickpeas (cooked/drained)", "unit": "g", "price_unit": "kg cooked", "price": 400, "divisor": 1000},
+    "potato": {"name": "Potato", "unit": "g", "price_unit": "kg", "price": 100, "divisor": 1000},
+    "onion": {"name": "Onion", "unit": "g", "price_unit": "kg", "price": 150, "divisor": 1000},
+    "tomato": {"name": "Tomato", "unit": "g", "price_unit": "kg", "price": 160, "divisor": 1000},
+    "peas": {"name": "Peas (shelled)", "unit": "g", "price_unit": "kg", "price": 300, "divisor": 1000},
+    "spinach": {"name": "Spinach (trimmed)", "unit": "g", "price_unit": "kg", "price": 140, "divisor": 1000},
+    "egg": {"name": "Egg", "unit": "piece", "price_unit": "piece", "price": 30, "divisor": 1},
+    "chicken": {"name": "Chicken (boneless)", "unit": "g", "price_unit": "kg", "price": 1000, "divisor": 1000},
+    "oil": {"name": "Cooking oil", "unit": "ml", "price_unit": "litre", "price": 600, "divisor": 1000},
+    "salt": {"name": "Salt", "unit": "g", "price_unit": "kg", "price": 80, "divisor": 1000},
+    "cumin": {"name": "Cumin", "unit": "g", "price_unit": "kg", "price": 2000, "divisor": 1000},
+    "turmeric": {"name": "Turmeric", "unit": "g", "price_unit": "kg", "price": 1200, "divisor": 1000}
+  },
+  "recipes": [
+    {
+      "id": "dal_rice", "name": "Masoor dal with rice", "minutes": 40,
+      "ingredients": {"rice": 300, "lentils": 250, "onion": 150, "tomato": 200, "oil": 30, "salt": 4, "cumin": 4, "turmeric": 2},
+      "steps": ["Rinse rice and lentils separately. Put lentils in a saucepan, cover generously with water and simmer until soft, adding water as needed.", "Cook rice separately in water until tender; drain excess water if needed.", "Chop onion and tomato. Heat the measured oil, soften onion, then add tomato, cumin, turmeric and the measured salt. Cook until tomato softens.", "Stir this mixture into the lentils and simmer together for 5 minutes. Serve with the rice."]
+    },
+    {
+      "id": "khichdi", "name": "Vegetable masoor khichdi", "minutes": 40,
+      "ingredients": {"rice": 250, "lentils": 200, "potato": 250, "peas": 150, "onion": 100, "oil": 25, "salt": 4, "cumin": 4, "turmeric": 2},
+      "steps": ["Rinse rice and lentils. Chop onion and cut potato into small cubes.", "Heat oil in a pot. Soften onion with cumin, then stir in potato, peas, turmeric and salt.", "Add rice and lentils. Cover generously with water, bring to a boil, then simmer partly covered until rice, lentils and potato are soft. Stir occasionally and add water as needed to prevent sticking.", "Rest for 5 minutes and serve warm. Aim for a soft, spoonable texture."]
+    },
+    {
+      "id": "chana_rice", "name": "Chana pulao", "minutes": 35,
+      "ingredients": {"rice": 350, "chickpeas": 500, "onion": 150, "tomato": 150, "oil": 30, "salt": 4, "cumin": 4, "turmeric": 2},
+      "steps": ["Rinse rice. Use already cooked, drained chickpeas; dry chickpeas must be cooked separately first.", "Chop onion and tomato. Heat oil, soften onion, then add tomato, cumin, turmeric and salt. Cook until tomato softens.", "Add chickpeas and rice. Add water according to your rice packet's absorption-cooking instructions. Bring to a simmer, cover and cook gently until rice is tender and water is absorbed.", "Turn off heat, rest covered for 5 minutes, then fluff gently and serve."]
+    },
+    {
+      "id": "aloo_egg", "name": "Aloo anda with rice", "minutes": 40,
+      "ingredients": {"rice": 300, "egg": 6, "potato": 400, "onion": 150, "tomato": 250, "oil": 30, "salt": 4, "cumin": 4, "turmeric": 2},
+      "steps": ["Rinse rice and cook in water until tender. Hard-boil eggs until the whites and yolks are firm, then cool and peel.", "Chop onion and tomato and cube potato. Heat oil and soften onion. Add tomato, cumin, turmeric and salt; cook until tomato softens.", "Add potato and enough water to simmer it in the sauce. Cover and cook until potato is completely tender, adding water if necessary.", "Halve the cooked eggs, add to the sauce and heat through gently. Serve with rice."]
+    },
+    {
+      "id": "palak_dal", "name": "Palak dal with rice", "minutes": 40,
+      "ingredients": {"rice": 300, "lentils": 250, "spinach": 400, "onion": 150, "tomato": 150, "oil": 25, "salt": 4, "cumin": 4, "turmeric": 2},
+      "steps": ["Rinse rice and lentils separately. Simmer lentils in plenty of water until soft. Cook rice separately until tender.", "Wash and chop spinach; chop onion and tomato. Heat oil and soften onion, then add tomato, cumin, turmeric and salt.", "When tomato has softened, add spinach and cook until wilted. Stir in the soft lentils and simmer together for 5 minutes, adjusting thickness with water.", "Serve the spinach and lentil mixture with rice."]
+    },
+    {
+      "id": "chicken_rice", "name": "Simple chicken pulao", "minutes": 50,
+      "ingredients": {"rice": 350, "chicken": 600, "onion": 200, "tomato": 200, "peas": 150, "oil": 35, "salt": 4, "cumin": 5, "turmeric": 2},
+      "steps": ["Rinse rice. Chop onion and tomato. Cut chicken into small, even pieces using separate utensils for raw chicken.", "Heat oil, soften onion, then add chicken, tomato, cumin, turmeric and salt. Cook while stirring, then add a little water and simmer until chicken is cooked through.", "Add peas, rice and water according to your rice packet's absorption-cooking instructions, accounting for liquid already in the pot. Cover and simmer gently until rice is tender and chicken is thoroughly cooked.", "Rest covered for 5 minutes, fluff rice and serve. Cooking times are approximate; do not rely on time alone for chicken doneness."]
+    }
+  ]
+}
