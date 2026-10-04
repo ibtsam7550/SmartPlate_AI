@@ -1,0 +1,37 @@
+test_changed_budget_clears_old_results (test_app.InterfaceTests.test_changed_budget_clears_old_results) ... 2026-10-04 21:18:15.870 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_filter_no_recipes (test_app.InterfaceTests.test_filter_no_recipes) ... 2026-10-04 21:18:16.264 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_live_quota_error_has_no_fake_success (test_app.InterfaceTests.test_live_quota_error_has_no_fake_success) ... 2026-10-04 21:18:16.340 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_live_success_with_mocked_http (test_app.InterfaceTests.test_live_success_with_mocked_http) ... 2026-10-04 21:18:16.390 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_live_without_key (test_app.InterfaceTests.test_live_without_key) ... 2026-10-04 21:18:16.463 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_pantry_and_price_edit (test_app.InterfaceTests.test_pantry_and_price_edit) ... 2026-10-04 21:18:16.509 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_start_and_sample_results (test_app.InterfaceTests.test_start_and_sample_results) ... 2026-10-04 21:18:16.602 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_http_errors_do_not_expose_key_or_body (test_planner.ApiTests.test_http_errors_do_not_expose_key_or_body) ... ok
+test_missing_key_and_sample_mode_never_call_api (test_planner.ApiTests.test_missing_key_and_sample_mode_never_call_api) ... ok
+test_network_failure (test_planner.ApiTests.test_network_failure) ... ok
+test_only_one_available_option (test_planner.ApiTests.test_only_one_available_option) ... ok
+test_truncated_and_malformed_response (test_planner.ApiTests.test_truncated_and_malformed_response) ... ok
+test_unknown_duplicate_empty_and_wrong_type (test_planner.ApiTests.test_unknown_duplicate_empty_and_wrong_type) ... ok
+test_valid_ai_and_request_contract (test_planner.ApiTests.test_valid_ai_and_request_contract) ... ok
+test_catalog_and_rounding_invariants (test_planner.BudgetTests.test_catalog_and_rounding_invariants) ... ok
+test_exact_budget_boundary (test_planner.BudgetTests.test_exact_budget_boundary) ... ok
+test_exclusions_and_vegetarian (test_planner.BudgetTests.test_exclusions_and_vegetarian) ... ok
+test_full_pantry_zero_budget (test_planner.BudgetTests.test_full_pantry_zero_budget) ... ok
+test_hand_calculated_dal_total (test_planner.BudgetTests.test_hand_calculated_dal_total) ... ok
+test_insufficient_budget (test_planner.BudgetTests.test_insufficient_budget) ... ok
+test_invalid_inputs (test_planner.BudgetTests.test_invalid_inputs) ... ok
+test_larger_family_costs_more (test_planner.BudgetTests.test_larger_family_costs_more) ... ok
+test_partial_pantry (test_planner.BudgetTests.test_partial_pantry) ... ok
+test_price_edit_changes_result (test_planner.BudgetTests.test_price_edit_changes_result) ... ok
+test_scaled_eggs_round_up (test_planner.BudgetTests.test_scaled_eggs_round_up) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.778s
+
+OK
